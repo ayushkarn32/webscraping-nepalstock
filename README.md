@@ -24,12 +24,12 @@
    
    <h3>Get all company price</h3>
    
-   url :-localhost/webscraping-nepalstock/todaysprice.php
+   url :-localhost/webscraping-nepalstock/allprice.php
    
    <b>live server</b>
    <ul>
-  <li><a href="#">Individual Company's Price</li>
-  <li><a href="#">All Company's Price</li>
+  <li><a href="https://projects.aayushkarna.com.np/stock/companyprice.php?symbol=adbl">Individual Company's Price</li>
+  <li><a href="https://projects.aayushkarna.com.np/stock/todaysprice.php">All Company's Price</li>
   </ul>
    
     
