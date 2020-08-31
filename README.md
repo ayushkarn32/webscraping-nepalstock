@@ -14,7 +14,12 @@
   <li>Run the file on server</li>
    </ul>
    
-   
+   <b>live server <b>Note : these file may load slow or may be unavailable as nepalstock responds slowly</b></b>
+   <ul>
+  <li><a href="https://webscraping-nepalstock.herokuapp.com/companyprice.php?symbol=adbl">Individual Company's Price</li>
+  <li><a href="https://webscraping-nepalstock.herokuapp.com/allprice.php">All Company's Price</li>
+  </ul>
+  
    <h3>Get todays price for an individual company</h3>
    
    <img src="gifs/onecompany.gif" alt="one-company" >
@@ -31,10 +36,5 @@
    
    url :-localhost/webscraping-nepalstock/allprice.php
    
-   <b>live server <b>Note : these file may load slow or may be unavailable as nepalstock responds slowly</b></b>
-   <ul>
-  <li><a href="https://webscraping-nepalstock.herokuapp.com/companyprice.php?symbol=adbl">Individual Company's Price</li>
-  <li><a href="https://webscraping-nepalstock.herokuapp.com/allprice.php">All Company's Price</li>
-  </ul>
    
     
