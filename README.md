@@ -26,7 +26,7 @@
    
    url :-localhost/webscraping-nepalstock/allprice.php
    
-   <b>live server</b>
+   <b>live server <b>Note : these file may load slow or may be unavailable as nepalstock responds slowly</b></b>
    <ul>
   <li><a href="https://projects.aayushkarna.com.np/stock/companyprice.php?symbol=adbl">Individual Company's Price</li>
   <li><a href="https://projects.aayushkarna.com.np/stock/todaysprice.php">All Company's Price</li>
