@@ -26,4 +26,10 @@
    
    url :-localhost/webscraping-nepalstock/todaysprice.php
    
+   <b>live server</b>
+   <ul>
+  <li><a href="#">Individual Company's Price</li>
+  <li><a href="#">All Company's Price</li>
+  </ul>
+   
     
