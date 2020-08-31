@@ -17,14 +17,17 @@
    
    <h3>Get todays price for an individual company</h3>
    
+   <img src="gifs/onecompany.gif" alt="one-company" >
+   
    url :- localhost/webscraping-nepalstock/companyprice.php?symbol=adbl
    
-   <img src="gifs/onecompany.gif" alt="one-company" >
    
    <b>Note:</b>where adbl is a symbol for agricultural and development bank limited .Change symbol value as you want.
    
    
    <h3>Get all company price</h3>
+   
+   <img src="gifs/todaysprice.gif" alt="one-company" >
    
    url :-localhost/webscraping-nepalstock/allprice.php
    
