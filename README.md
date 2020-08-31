@@ -19,6 +19,8 @@
    
    url :- localhost/webscraping-nepalstock/companyprice.php?symbol=adbl
    
+   <img src="gifs/onecompany.gif" alt="one-company" >
+   
    <b>Note:</b>where adbl is a symbol for agricultural and development bank limited .Change symbol value as you want.
    
    
