@@ -9,15 +9,12 @@ header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers
 $alldata=[];
 $html = @file_get_html('http://www.nepalstock.com/todaysprice/export');
 
-
 error_reporting(E_ALL ^ E_NOTICE);  
-
 $error = error_get_last();
      // Fatal error, E_ERROR === 1
     if ($error['type'] === E_ERROR) {
          echo "Server is currently unavailabe,Please try again later.";
     }
-
 foreach($html->find('tr') as $data) {
     $item['title']   = $data->find('td', 0)->plaintext;
     $item['tradecompany']    = $data->find('td[2]', 0)->plaintext;
@@ -31,8 +28,5 @@ foreach($html->find('tr') as $data) {
     $item['difference'] = $data->find('td[10]', 0)->plaintext;
     $alldata[] = $item;
 }
-}
-
 echo json_encode($alldata);
-
 ?>
