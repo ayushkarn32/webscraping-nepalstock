@@ -13,9 +13,10 @@ $error = error_get_last();
     if ($error['type'] === E_ERROR) {
          echo "Server is currently unavailabe,Please try again later.";
     }
+$sn=0;
 foreach($html->find('tr') as $data) {
-    $item['title']   = $data->find('td', 0)->plaintext;
-     if($item['title']!=null){
+     if($data->find('td', 0)->plaintext!=null){
+          $item['sno']=$sn++;
          $item['tradecompany']    = $data->find('td[1]', 0)->plaintext;
          $item['nooftransaction'] = $data->find('td[2]', 0)->plaintext;
          $item['maxprice'] = $data->find('td[3]', 0)->plaintext;
